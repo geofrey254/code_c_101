@@ -27,11 +27,11 @@ int main()
     if (choice == 0)
     {
         // CRAZY OFFERS
-        printf("1.Sh20=1.2GB, 1hr + FREE GAME\n");
-        printf("2.Sh20=200MB, 24hr + FREE GAME\n");
-        printf("3.Sh50=1.5GB, 3hr + FREE GAME\n");
-        printf("4.Sh100=2GB, 24hr\n");
-        printf("5.Sh10=15min, 1Hr\n");
+        printf("1:Sh20=1.2GB, 1hr + FREE GAME\n");
+        printf("2:Sh20=200MB, 24hr + FREE GAME\n");
+        printf("3:Sh50=1.5GB, 3hr + FREE GAME\n");
+        printf("4:Sh100=2GB, 24hr\n");
+        printf("5:Sh10=15min, 1Hr\n");
         printf("0.BACK 00:HOME 98:MORE\n\n");
 
         printf("Choice: \n");
@@ -86,8 +86,8 @@ int main()
     else if (choice == 1)
     {
         // TikTok + YouTube
-        printf("1.TikTok\n");
-        printf("2.YouTube\n");
+        printf("1:TikTok\n");
+        printf("2:YouTube\n");
         printf("0:BACK 00:HOME\n");
 
         printf("Choice: \n");
@@ -163,14 +163,14 @@ int main()
     else if (choice == 6)
     {
         // My Dealz
-        printf("1.Sh50=1.5GB, 3hr\n");
-        printf("2.Sh20=1GB, 1hr\n");
-        printf("3.Sh50=500MB, 24hr\n");
-        printf("4.Sh99=1GB, 24hr\n");
-        printf("5.Sh250=5GB, 3Days\n");
-        printf("6.Sh500=5GB, 30Days\n");
-        printf("7.Sh1000=15GB, 30Days\n");
-        printf("8.Sh50=5GB(midnight-6am)\n");
+        printf("1:Sh50=1.5GB, 3hr\n");
+        printf("2:Sh20=1GB, 1hr\n");
+        printf("3:Sh50=500MB, 24hr\n");
+        printf("4:Sh99=1GB, 24hr\n");
+        printf("5:Sh250=5GB, 3Days\n");
+        printf("6:Sh500=5GB, 30Days\n");
+        printf("7:Sh1000=15GB, 30Days\n");
+        printf("8:Sh50=5GB(midnight-6am)\n");
         printf("9:Make Ur Bundle\n");
         printf("98:MORE\n\n");
     }
@@ -179,11 +179,11 @@ int main()
     {
         // Daily + FREE GAMES
         printf("LET LOOSE; FREE GAMES on us.\n");
-        printf("1.Sh5=15MB+10SMS\n");
-        printf("2.Sh10=50MB+25SMS\n");
-        printf("3.Sh20=150MB+70SMS+WhatsApp\n");
-        printf("4.Sh50=500MB+200SMS+WhatsApp\n");
-        printf("5.Sh100:1GB+200SMS+WhatsApp\n");
+        printf("1:Sh5=15MB+10SMS\n");
+        printf("2:Sh10=50MB+25SMS\n");
+        printf("3:Sh20=150MB+70SMS+WhatsApp\n");
+        printf("4:Sh50=500MB+200SMS+WhatsApp\n");
+        printf("5:Sh100:1GB+200SMS+WhatsApp\n");
         printf("6:Power Hour 250MB@Sh19\n");
         printf("00:HOME\n\n");
     }
@@ -191,10 +191,35 @@ int main()
     else if (choice == 8)
     {
         // Weekly + FREE GAMES
-        printf("1.4GB + FREE 500MB YouTube @Sh500\n");
-        printf("2.2GB + FREE 500MB YouTube @Sh250\n");
-        printf("3.750MB + FREE 500MB YouTube @Sh100\n");
-        printf("4.250MB @Sh50\n");
+        printf("1:4GB + FREE 500MB YouTube @Sh500\n");
+        printf("2:2GB + FREE 500MB YouTube @Sh250\n");
+        printf("3:750MB + FREE 500MB YouTube @Sh100\n");
+        printf("4:250MB @Sh50\n");
         printf("0:BACK 00:HOME\n\n");
+    }
+
+    else if (choice == 9)
+    {
+        // GO MONTHLY
+        printf("0:Sh500=2GB+100MINS+500SMS\n");
+        printf("2:2GB + FREE 500MB YouTube @Sh250\n");
+        printf("3:750MB + FREE 500MB YouTube @Sh100\n");
+        printf("4:250MB @Sh50\n");
+        printf("0:BACK 00:HOME\n\n");
+    }
+
+    else if (choice == 98)
+    {
+        // GO MONTHLY
+        printf("10:Video + Partners\n");
+        printf("11:Minutes\n");
+        printf("12:Okoa\n");
+        printf("13:Lipa Mdogo\n");
+        printf("14:Sh10=1GB YouTube, 3hrs\n");
+        printf("15:Sh250=1GB YouTube + 100SMS\n");
+        printf("16:Sh500=7.5GB, 30Days\n");
+        printf("17:Bal & Tips\n");
+        printf("18:No Expiry\n");
+        printf("0:BACK 98:MORE\n\n");
     }
 }
