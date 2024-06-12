@@ -126,8 +126,11 @@ int main()
 
     else if (choice == 3)
     {
-        printf("1:Sh20(10mins+100MB+FREE SKIZA)3hrs:\n");
-        printf("2:Sh50(20mins+235MB+FREE Education)till midnight:\n");
+        printf("1:Sh20(10mins+100MB+FREE SKIZA)3hrs\n");
+        printf("2:Sh50(20mins+235MB+FREE Education)till midnight\n");
+        printf("3:Sh100(50mins+500MB+FREE Baze Video)till midnight\n");
+        printf("4:Jimixie Bundle\n");
+        printf("5:About The Promo\n");
         printf("0:BACK\n");
     }
 }
