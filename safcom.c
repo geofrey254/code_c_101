@@ -159,4 +159,19 @@ int main()
         printf("8:30 Days\n");
         printf("0:BACK\n");
     }
+
+    else if (choice == 6)
+    {
+        // My Dealz
+        printf("1.Sh50=1.5GB, 3hr\n");
+        printf("2.Sh20=1GB, 1hr\n");
+        printf("3.Sh50=500MB, 24hr\n");
+        printf("4.Sh99=1GB, 24hr\n");
+        printf("5.Sh250=5GB, 3Days\n");
+        printf("6.Sh500=5GB, 30Days\n");
+        printf("7.Sh1000=15GB, 30Days\n");
+        printf("8.Sh50=5GB(midnight-6am)\n");
+        printf("9:Make Ur Bundle\n");
+        printf("98:MORE\n\n");
+    }
 }
