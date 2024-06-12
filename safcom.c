@@ -147,10 +147,16 @@ int main()
 
     else if (choice == 5)
     {
-        // Sh.20=200MB, 24Hr
-        printf("Buy Sh20=200MB, 24hr + FREE GAME using:\n");
-        printf("1:Airtime\n");
-        printf("2:MPESA\n");
-        printf("0:BACK 00:HOME\n");
+        // MakeUrHOOK
+        printf("What is your preferred Validity\n");
+        printf("1:1 Hour\n");
+        printf("2:3 Hours\n");
+        printf("3:Midnight\n");
+        printf("4:24 Hours\n");
+        printf("5:3 Days\n");
+        printf("6:7 Days\n");
+        printf("7:15 Days\n");
+        printf("8:30 Days\n");
+        printf("0:BACK\n");
     }
 }
