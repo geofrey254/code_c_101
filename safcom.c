@@ -187,4 +187,14 @@ int main()
         printf("6:Power Hour 250MB@Sh19\n");
         printf("00:HOME\n\n");
     }
+
+    else if (choice == 8)
+    {
+        // Weekly + FREE GAMES
+        printf("1.4GB + FREE 500MB YouTube @Sh500\n");
+        printf("2.2GB + FREE 500MB YouTube @Sh250\n");
+        printf("3.750MB + FREE 500MB YouTube @Sh100\n");
+        printf("4.250MB @Sh50\n");
+        printf("0:BACK 00:HOME\n\n");
+    }
 }
