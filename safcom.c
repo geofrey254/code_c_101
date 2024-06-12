@@ -6,17 +6,17 @@ int main()
     int choice;
 
     //*544# Menu
-    printf("0.CRAZY OFFERS\n");
-    printf("1.TikTok + YouTube\n");
-    printf("2.Sh20=1.2GB, 1Hr\n");
-    printf("3.Shine Kenya\n");
-    printf("4.Sh.20=200MB, 24Hr\n");
-    printf("5.MakeUrHOOK\n");
-    printf("6.My Dealz\n");
-    printf("7.Daily+FREE GAMES\n");
-    printf("8.Weekly+FREE YouTube\n");
-    printf("9.GO MONTHLY\n");
-    printf("98.MORE\n\n");
+    printf("0:CRAZY OFFERS\n");
+    printf("1:TikTok + YouTube\n");
+    printf("2:Sh20=1.2GB, 1Hr\n");
+    printf("3:Shine Kenya\n");
+    printf("4:Sh.20=200MB, 24Hr\n");
+    printf("5:MakeUrHOOK\n");
+    printf("6:My Dealz\n");
+    printf("7:Daily+FREE GAMES\n");
+    printf("8:Weekly+FREE YouTube\n");
+    printf("9:GO MONTHLY\n");
+    printf("98:MORE\n\n");
 
     // choice input
     printf("Choice: \n");
@@ -26,7 +26,7 @@ int main()
     // Control flow
     if (choice == 0)
     {
-        // choice 0 menu
+        // CRAZY OFFERS
         printf("1.Sh20=1.2GB, 1hr + FREE GAME\n");
         printf("2.Sh20=200MB, 24hr + FREE GAME\n");
         printf("3.Sh50=1.5GB, 3hr + FREE GAME\n");
@@ -85,7 +85,7 @@ int main()
     }
     else if (choice == 1)
     {
-        // choice 0 menu
+        // TikTok + YouTube
         printf("1.TikTok\n");
         printf("2.YouTube\n");
         printf("0:BACK 00:HOME\n");
@@ -117,6 +117,7 @@ int main()
     }
 
     else if (choice == 2)
+    // Sh20=1.2GB, 1Hr
     {
         printf("Buy Sh20=1200MB, 1hr + FREE GAME using:\n");
         printf("1:Airtime\n");
@@ -126,11 +127,30 @@ int main()
 
     else if (choice == 3)
     {
+        // Shine Kenya
         printf("1:Sh20(10mins+100MB+FREE SKIZA)3hrs\n");
         printf("2:Sh50(20mins+235MB+FREE Education)till midnight\n");
         printf("3:Sh100(50mins+500MB+FREE Baze Video)till midnight\n");
         printf("4:Jimixie Bundle\n");
         printf("5:About The Promo\n");
         printf("0:BACK\n");
+    }
+
+    else if (choice == 4)
+    {
+        // Sh.20=200MB, 24Hr
+        printf("Buy Sh20=200MB, 24hr + FREE GAME using:\n");
+        printf("1:Airtime\n");
+        printf("2:MPESA\n");
+        printf("0:BACK 00:HOME\n");
+    }
+
+    else if (choice == 5)
+    {
+        // Sh.20=200MB, 24Hr
+        printf("Buy Sh20=200MB, 24hr + FREE GAME using:\n");
+        printf("1:Airtime\n");
+        printf("2:MPESA\n");
+        printf("0:BACK 00:HOME\n");
     }
 }
