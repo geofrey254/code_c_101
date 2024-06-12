@@ -174,4 +174,17 @@ int main()
         printf("9:Make Ur Bundle\n");
         printf("98:MORE\n\n");
     }
+
+    else if (choice == 7)
+    {
+        // Daily + FREE GAMES
+        printf("LET LOOSE; FREE GAMES on us.\n");
+        printf("1.Sh5=15MB+10SMS\n");
+        printf("2.Sh10=50MB+25SMS\n");
+        printf("3.Sh20=150MB+70SMS+WhatsApp\n");
+        printf("4.Sh50=500MB+200SMS+WhatsApp\n");
+        printf("5.Sh100:1GB+200SMS+WhatsApp\n");
+        printf("6:Power Hour 250MB@Sh19\n");
+        printf("00:HOME\n\n");
+    }
 }
